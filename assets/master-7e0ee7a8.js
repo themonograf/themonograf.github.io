@@ -1,1 +1,0 @@
-import{i as t}from"./index-66a2a936.js";import{u as s}from"./index.esm-48d4374e.js";const a=async e=>(await t.get(`/master-image/${e}`)).data,r=async()=>(await t.get("/product-category/select-box")).data,g=e=>s(["master-image",e],()=>a(e)),p=()=>s(["product-category/select-box"],r);export{p as a,g as u};
