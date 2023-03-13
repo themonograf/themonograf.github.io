@@ -1,0 +1,1 @@
+import{j as e,B as s}from"./index-e0ece91c.js";const a=()=>e.jsx(s,{className:"flex h-full items-center justify-center",children:e.jsx("img",{src:"/images/under-maintenance.svg",alt:"",width:520})});export{a as default};

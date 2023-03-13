@@ -1,0 +1,1 @@
+var a=r=>{if(r===null||typeof r!="object")return r;let t;if(Array.isArray(r)){t=[];for(let e=0;e<r.length;e++)t[e]=a(r[e]);return t}else{t={};for(let e in r)Object.prototype.hasOwnProperty.call(r,e)&&(t[e]=a(r[e]));return t}},n=r=>new URLSearchParams(r).toString();export{a as c,n as o};
